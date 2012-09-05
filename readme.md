@@ -21,7 +21,7 @@ In this document:
 
 ## Release History ##
 
-ForcePad was originally released as 'Account Viewer' in August 2011. Account Viewer is [available on GitHub](https://github.com/ForceDotComLabs/Account-Viewer). In November 2011, Account Viewer was updated and re-released as 'Salesforce Viewer'. In February 2012, I updated it again to Salesforce for iPad. In August 2012 it became ForcePad.
+ForcePad was originally released as 'Account Viewer' in August 2011. Account Viewer is [available on GitHub](https://github.com/ForceDotComLabs/Account-Viewer). In November 2011, Account Viewer was updated and re-released as 'Salesforce Viewer'. In February 2012 it was Salesforce for iPad, and finally in September 2012 it became ForcePad.
 
 v2.4 - Released 9/4/2012
 
@@ -62,7 +62,7 @@ v2.2.1 - Released 2/20/2012
 
 v2.2 - Released 2/15/2012
 
-- Initial release of ForcePad
+- Initial release of Salesforce for iPad
 - Create, edit, clone, delete records for (almost all) standard and (all) custom objects
 - Bug fixes, UI updates
 
@@ -215,8 +215,6 @@ Much is there to do on ForcePad. Some unsolved problems:
 
 Some other things to do:
 
-- `RecentRecordsController` should do additional metadata describes on objects because the response contains the user's recently viewed records, and merge those results in with (or do away entirely with) the current recent records feature, which only includes records accessed on ForcePad. 
-- `ObjectLookupController` should display as default, before the user searches, a list of recent records of the type for which the user is searching.
 - *OpportunityLineItems* and *QuoteLineItems* need special handling (price books, products) and are not available to create or edit in the app today.
 - ForcePad doesn't support creating or editing objects that do not have page layouts (e.g. contact roles, account teams, etc) with the exception of Case Comments, for which I added a special hack to support. Nor does the app support viewing objects without page layouts, except in related lists.
 - Object list views have an API, but the API requires sysadmin (MAD/VAD). Not workable for normal users.
